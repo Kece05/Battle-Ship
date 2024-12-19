@@ -30,29 +30,7 @@ Once a ship is hit, the strategy determines its orientation (horizontal or verti
 ## Win Rate
 Through extensive testing, this strategy has consistently achieved a win rate exceeding 95%. The combination of randomness for discovery and precision for elimination makes it highly effective against various opponents.
 
-## How to Run
 
-### Prerequisites
-Ensure you have Java installed on your system.
-
-### Steps
-1. Compile the Java files:
-   ```bash
-   javac -d bin src/*.java
-   ```
-2. Run the game:
-   ```bash
-   java -cp bin BattleshipGame
-   ```
-
-## Running Tests
-The test suite is designed to validate all aspects of the strategy. To run the tests:
-
-1. Compile the test files along with the main files:
-   ```bash
-   javac -d bin -cp path/to/testing/library src/*.java
-   ```
-2. Execute the tests using your preferred testing framework (e.g., JUnit).
 
 ## License
 This project is licensed under the [MIT License](LICENSE). Feel free to use and modify the code as needed.
